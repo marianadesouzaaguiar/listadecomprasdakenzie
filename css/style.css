@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #101011;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+h1{
+    text-transform: uppercase;
+}
+.container{
+    background-color: #a8bfb6;
+    position: absolute;
+    width: 400px;
+    right: 0;
+    left: 0;
+    top: 30vh;
+    transform: translateY(-20%);
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+ul li{
+    margin-right:250px;
+    list-style-type: none;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 2px;
+}
