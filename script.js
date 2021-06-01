@@ -28,7 +28,7 @@ function deleteItem() {
 }
 
 function buttonEvents() {
-    for (let i = 0, i < itemButtons.length, i++){
+    for (let i = 0; i < itemButtons.length; i++){
         itemButtons[i].addEventListener("click", deleteItem)
     }
 }
