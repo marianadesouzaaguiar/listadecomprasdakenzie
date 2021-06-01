@@ -19,6 +19,7 @@ function adicionarItem(){
     li.appendChild(text);
     ul.appendChild(li)
     input.value = "";
+    buttonEvents();
 
 }
 

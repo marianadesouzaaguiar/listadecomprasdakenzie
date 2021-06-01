@@ -26,16 +26,23 @@ ul{
 }
 
 ul li{
-    margin-right:250px;
+    margin-right:180px;
     list-style-type: none;
-}
+
 
 input{
-    border:none;
-    padding: 0.5em;
+    border: none;
+    padding: 1em;
+    margin-right: 50px;
 }
 
 #btnAdicionar{
     cursor: pointer;
     border-radius: 2px;
+    border:none;
+    background-color:#f4d586;
+}
+
+#item-button{
+
 }
